@@ -1,0 +1,17 @@
+{
+"proj": {
+        "id": "laea",
+        "lon0": 90,
+		"lat0": 45
+  },
+   "layers": {
+    "region":{
+       "src": "level3_wgs84.shp",
+	   "simplify": true,
+	   "attributes":["ISO","NAME_ENGLI","IDREG"]},
+	"country":{
+		"src": "level3_wgs84_country.shp",
+	    "simplify": true,
+	    "attributes":["ISO","COUNTRY"] }
+   }
+}
